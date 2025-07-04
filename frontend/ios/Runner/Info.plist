@@ -45,5 +45,20 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	
+	<!-- Permissions for camera and photo library -->
+	<key>NSCameraUsageDescription</key>
+	<string>Jivhala Motors needs access to camera to capture vehicle images and documents</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Jivhala Motors needs access to photo library to select vehicle images</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Jivhala Motors needs access to save vehicle images to photo library</string>
+	
+	<!-- Network usage description -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
